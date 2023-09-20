@@ -11,5 +11,6 @@ namespace eticaretuygulamasi.Context
         }
         public DbSet<Category> Categories { get; set; }
         public DbSet<Product> Procducts { get; set; }
+        public DbSet<Admin> Admins { get; set; }
     }
 }
